@@ -1,0 +1,35 @@
+{
+  "name": "represent",
+  "version": "0.0.1",
+  "description": "Slide editor built with redeck.",
+  "scripts": {
+    "dev": "webpack-dev-server",
+    "build": "NODE_ENV=production webpack"
+  },
+  "author": "Lachlan Campbell",
+  "private": true,
+  "license": "MIT",
+  "keywords": [
+    "react",
+    "presentation",
+    "slides",
+    "slideshow",
+    "slidedeck"
+  ],
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-env": "^1.6.0",
+    "babel-preset-react": "^6.24.1",
+    "babel-register": "^6.26.0",
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1",
+    "redeck": "^1.0.2",
+    "webpack": "^3.5.5",
+    "webpack-dev-server": "^2.7.1"
+  },
+  "dependencies": {
+    "react-textarea-autosize": "^5.1.0"
+  }
+}
